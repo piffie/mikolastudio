@@ -29,7 +29,7 @@ a {
     color: #1abc9c;
 }
 a:hover {
-    color: #16a085;
+    color: white;
     text-decoration: none;
 }
 a:focus {
@@ -39,15 +39,9 @@ a:focus {
 
 /*manipulated for mikulastudio */
 
-.newsletter, .contact, .pricing {
+.newsletter, .pricing, .contactform, #contact-form {
   display: none;
 }
-
-
-
-
-
-
 
 
 .tooltip-inner {
@@ -192,7 +186,7 @@ HEADER
 MAIN
 */
 .background {
-    background: url('images/onepage/00 banner-like.jpg') repeat center;
+    background: url('../images/onepage/00 banner 03.jpg') repeat center;
     background-size: cover;
     position: fixed;
     width: 100%;
